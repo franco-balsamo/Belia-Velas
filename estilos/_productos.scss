@@ -1,0 +1,17 @@
+.tituloProductos {
+    font-size: $f-size;
+    text-align: center;
+    padding-bottom:($padding)-20;
+    margin-top: 15px;
+    color:grey;
+}
+
+.productos {
+    text-align: center;
+
+    &__img {
+         height:$height/2;
+         width:$width/2;
+         margin: $margin/2;
+    }
+}

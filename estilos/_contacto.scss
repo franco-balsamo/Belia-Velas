@@ -1,0 +1,48 @@
+.tituloContaco {
+    font-size: $f-size;
+    text-align: center;
+    padding-bottom:($padding)-20;
+    margin-top: 15px;
+    color:grey;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: ($margin/2)+5;
+    margin-bottom: ($margin/2)+5;
+    @include movil {
+        flex-direction: column;
+    }
+
+    &__input {
+         background: $gradient;
+    }
+
+    &__textarea {
+            background: $gradient;
+    }
+
+    &__btn {       
+         transition: all 0.5s ease-out;
+         @include movil {
+            margin-top: ($margin/2)-10;
+         }
+    }
+
+    &__btn:hover {
+            transform: scale(1.5);
+    }
+}
+
+iframe {
+    margin-left: ($margin)+15;
+    height: ($height/2)+50;
+    width: ($width)-100;
+    @include movil {
+        width: 300px;
+        height: 300px;
+        align-self: center;
+        margin: 25px 0 0 0;
+    }
+}

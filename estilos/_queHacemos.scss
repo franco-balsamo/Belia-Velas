@@ -1,0 +1,25 @@
+.queHacemos  {
+    font-size: $f-size;
+    text-align: center;
+    margin-top: 15px;
+    color: grey;
+
+    &__parrafo {
+          text-align: center;
+          list-style-type: none;
+          margin: 40px 0;
+    }
+}
+
+.galeria {
+    text-align: center;
+    margin-bottom: 25px;
+
+    &__img{
+         height:$height/2;
+         width:$width/2;
+         @include tablet {
+            margin: ($margin/2)-15;
+         }
+    }
+}

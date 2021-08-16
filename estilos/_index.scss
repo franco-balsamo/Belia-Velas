@@ -1,0 +1,75 @@
+@import "mediaQuery";
+
+.tituloIndex {
+    font-size: $f-size;
+    text-align: center;
+    margin-top: 15px;
+    color:grey;
+}
+
+.carousel {
+    display: grid;
+    justify-content: center;
+    margin: ($margin/2)+5;
+
+    &__img {
+         max-height:($height)-100;
+         max-width:($width)-100;
+    }
+}
+
+.nuestrasVelas {
+    margin-bottom: $margin;
+    margin-top: ($margin)+25;
+
+    &__servicios {
+        display: flex;
+        justify-content: space-evenly;
+        @include movil {
+            flex-direction: column;
+            justify-content: none;
+        }
+
+    }
+
+    &__img {
+         height:($height/2)-50;
+         @include movil {
+            align-self: center;
+        }
+    }
+
+    &__parrafo {
+            list-style-type:none;
+            color: white;
+            padding: $padding;
+            text-align: center;
+    } 
+}
+
+.refill {
+    margin-top: $margin/2;
+    margin-bottom: $margin/2;
+
+    &__servicios {
+        display: flex;
+        justify-content: space-evenly;
+        @include movil {
+            flex-direction: column;
+            justify-content: none;
+        }
+    }
+
+    &__img {
+          height:($height/2)-50;
+           @include movil {
+            align-self: center;
+           }
+    }
+
+    &__parrafo {
+           padding: $padding;
+           text-align: center;
+           margin-top: ($margin/2)+10;
+    }
+}
