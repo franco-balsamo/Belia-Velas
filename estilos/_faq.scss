@@ -6,10 +6,25 @@
     padding-bottom:($padding)-20;
     margin-top: 15px;
     color:grey;
+    @include movil {
+        font-size: 35px;
+    }
+    @include movil-s {
+        font-size: 25px;
+    }
 }
 
 .accordion {
     margin: 15px 100px;
+    @include movil {
+        margin: 15px 50px;
+    }
+    @include movil-s {
+        margin: 15px 30px;
+    }
+    @include tablet {
+        margin: 15px 50px;
+    }
 }
 
 .accordion-button {

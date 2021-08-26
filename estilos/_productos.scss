@@ -6,6 +6,12 @@
     padding-bottom:($padding)-20;
     margin-top: 15px;
     color:grey;
+    @include movil-s {
+        font-size: 35px;
+    }
+    @include movil-m {
+        font-size: 40px;
+    }
 }
 
 .productos {
@@ -16,6 +22,15 @@
          width:$width/2;
          margin: $margin/2;
          transition: all 2s;
+         @include movil-s {
+             width: 250px;
+             height: 200px;
+             margin: 15px;
+         }
+         @include movil-m {
+             width: 250px;
+             height: 250px;
+         }
     }
 
     &__img:hover {

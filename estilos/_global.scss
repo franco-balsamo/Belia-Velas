@@ -28,6 +28,13 @@ hr {
    margin: 0;
 }
 
+.logo {
+     width: 250px;
+     @include movil-s {
+       width: 225px;
+     }
+}
+
 .nav-item {
      padding: 5px;
 }
@@ -36,6 +43,12 @@ a {
    font-size: ($f-size/2)+5;
    text-decoration: none;
    padding: 4px;
+}
+
+footer{
+  @include movil-m {
+    margin: 10px;
+  }
 }
 
 .footer {
@@ -51,6 +64,11 @@ a {
       height: 50px;
       width: 50px;
       margin: 0 15px;
+      @include movil-s {
+        margin: 0 10px;
+        width: 35px;
+        height: 35px;
+      }
       }
 
 }

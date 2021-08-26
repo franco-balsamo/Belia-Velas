@@ -31,6 +31,16 @@ hr {
   margin: 0;
 }
 
+.logo {
+  width: 250px;
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    width: 225px;
+  }
+}
+
 .nav-item {
   padding: 5px;
 }
@@ -39,6 +49,12 @@ a {
   font-size: 30px;
   text-decoration: none;
   padding: 4px;
+}
+
+@media screen and (max-width: 375px) {
+  footer {
+    margin: 10px;
+  }
 }
 
 .footer {
@@ -59,6 +75,14 @@ a {
   height: 50px;
   width: 50px;
   margin: 0 15px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__img {
+    margin: 0 10px;
+    width: 35px;
+    height: 35px;
+  }
 }
 
 .focus-in-expand {
@@ -132,6 +156,18 @@ a {
   color: grey;
 }
 
+@media screen and (max-width: 320px) {
+  .tituloIndex {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .tituloIndex {
+    font-size: 40px;
+  }
+}
+
 .carousel {
   display: -ms-grid;
   display: grid;
@@ -139,6 +175,18 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 30px;
+}
+
+@media screen and (max-width: 320px) {
+  .carousel {
+    margin: 25px 50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .carousel {
+    margin: 25px 65px;
+  }
 }
 
 .carousel__img {
@@ -149,6 +197,18 @@ a {
 .nuestrasVelas {
   margin-bottom: 50px;
   margin-top: 75px;
+}
+
+@media screen and (max-width: 320px) {
+  .nuestrasVelas {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .nuestrasVelas {
+    margin-bottom: 0;
+  }
 }
 
 .nuestrasVelas__servicios {
@@ -189,6 +249,20 @@ a {
   color: white;
   padding: 35px;
   text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .nuestrasVelas__parrafo {
+    padding: 0 30px;
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .nuestrasVelas__parrafo {
+    padding: 40px;
+    margin-top: 25px;
+  }
 }
 
 .refill {
@@ -235,6 +309,18 @@ a {
   margin-top: 35px;
 }
 
+@media screen and (max-width: 320px) {
+  .refill__parrafo {
+    padding: 0 35px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .refill__parrafo {
+    padding: 0 35px;
+  }
+}
+
 .queHacemos {
   font-size: 50px;
   text-align: center;
@@ -242,10 +328,29 @@ a {
   color: grey;
 }
 
+@media screen and (max-width: 320px) {
+  .queHacemos {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .queHacemos {
+    font-size: 40px;
+  }
+}
+
 .queHacemos__parrafo {
   text-align: center;
   list-style-type: none;
   margin: 40px 0;
+}
+
+@media screen and (max-width: 375px) {
+  .queHacemos__parrafo {
+    margin: 40px 10px;
+    padding: 0;
+  }
 }
 
 .galeria {
@@ -264,12 +369,38 @@ a {
   }
 }
 
+@media screen and (max-width: 320px) {
+  .galeria__img {
+    width: 250px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .galeria__img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
 .tituloProductos {
   font-size: 50px;
   text-align: center;
   padding-bottom: 15px;
   margin-top: 15px;
   color: grey;
+}
+
+@media screen and (max-width: 320px) {
+  .tituloProductos {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .tituloProductos {
+    font-size: 40px;
+  }
 }
 
 .productos {
@@ -282,6 +413,21 @@ a {
   margin: 25px;
   -webkit-transition: all 2s;
   transition: all 2s;
+}
+
+@media screen and (max-width: 320px) {
+  .productos__img {
+    width: 250px;
+    height: 200px;
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .productos__img {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 .productos__img:hover {
@@ -300,8 +446,38 @@ a {
   color: grey;
 }
 
+@media screen and (max-width: 425px) {
+  .tituloFaq {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .tituloFaq {
+    font-size: 25px;
+  }
+}
+
 .accordion {
   margin: 15px 100px;
+}
+
+@media screen and (max-width: 425px) {
+  .accordion {
+    margin: 15px 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .accordion {
+    margin: 15px 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .accordion {
+    margin: 15px 50px;
+  }
 }
 
 .accordion-button {
@@ -328,6 +504,20 @@ a {
   color: grey;
 }
 
+@media screen and (max-width: 320px) {
+  .tituloContaco {
+    padding: 0;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .tituloContaco {
+    font-size: 35px;
+    padding: 0;
+  }
+}
+
 .contacto {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -345,6 +535,13 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .contacto {
+    margin-top: 25px;
+    margin-bottom: 15px;
   }
 }
 
@@ -393,5 +590,12 @@ iframe {
         -ms-grid-row-align: center;
         align-self: center;
     margin: 25px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  iframe {
+    width: 250px;
+    height: 250px;
   }
 }

@@ -1,3 +1,17 @@
+@mixin movil-s {
+    @media screen and (max-width: 320px) {
+        @content;
+    }
+}
+
+@mixin movil-m {
+    @media screen and (max-width: 375px) {
+        @content;
+    }
+}
+
+
+
 @mixin movil {
     @media screen and (max-width: 425px) {
         @content;
