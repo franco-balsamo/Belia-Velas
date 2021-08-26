@@ -280,6 +280,44 @@ a {
   height: 300px;
   width: 300px;
   margin: 25px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.productos__img:hover {
+  width: 450px;
+  height: 450px;
+  padding: 15px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#232526), to(#414345));
+  background-image: linear-gradient(to bottom, #232526, #414345);
+}
+
+.tituloFaq {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  color: grey;
+}
+
+.accordion {
+  margin: 15px 100px;
+}
+
+.accordion-button {
+  background: -webkit-gradient(linear, left top, left bottom, from(#232526), to(#414345));
+  background: linear-gradient(to bottom, #232526, #414345);
+  color: white;
+}
+
+.accordion-body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#232526), to(#414345));
+  background: linear-gradient(to bottom, #232526, #414345);
+  color: white;
+}
+
+.hr {
+  margin-top: 75px;
 }
 
 .tituloContaco {

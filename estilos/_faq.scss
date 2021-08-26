@@ -1,0 +1,27 @@
+@import "mediaQuery";
+
+.tituloFaq {
+    font-size: $f-size;
+    text-align: center;
+    padding-bottom:($padding)-20;
+    margin-top: 15px;
+    color:grey;
+}
+
+.accordion {
+    margin: 15px 100px;
+}
+
+.accordion-button {
+    background: $gradient;
+    color: white;
+}
+
+.accordion-body {
+    background: $gradient;
+    color: white;
+}
+
+.hr {
+    margin-top: 75px;
+}
