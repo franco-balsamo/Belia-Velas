@@ -5,20 +5,17 @@
     text-align: center;
     margin-top: 15px;
     color: grey;
-    @include movil-s {
+    @include movil {
         font-size: 35px;
-    }
-    @include movil-m {
-        font-size: 40px;
     }
 
     &__parrafo {
           text-align: center;
           list-style-type: none;
           margin: 40px 0;
-          @include movil-m {
-              margin: 40px 10px;
-              padding: 0;
+          @include movil {
+              padding: 0px;
+              margin: 30px 25px;
           }
     }
 }
@@ -30,16 +27,13 @@
     &__img{
          height:$height/2;
          width:$width/2;
-         @include tablet {
-            margin: ($margin/2)-15;
-         }
-         @include movil-s {
-             width: 250px;
-             height: 200px;
-         }
-         @include movil-m {
+         
+         @include movil {
              width: 250px;
              height: 250px;
+         }
+         @include tablet {
+            margin: ($margin/2)-15;
          }
     }
 }

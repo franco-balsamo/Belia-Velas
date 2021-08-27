@@ -6,12 +6,12 @@
     padding-bottom:($padding)-20;
     margin-top: 15px;
     color:grey;
-    @include movil {
-        font-size: 35px;
-    }
     @include movil-s {
         font-size: 25px;
+    }@include movil {
+        font-size: 35px;
     }
+
 }
 
 .accordion {

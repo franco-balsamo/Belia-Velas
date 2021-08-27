@@ -156,15 +156,9 @@ a {
   color: grey;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .tituloIndex {
     font-size: 35px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .tituloIndex {
-    font-size: 40px;
   }
 }
 
@@ -177,18 +171,6 @@ a {
   margin: 30px;
 }
 
-@media screen and (max-width: 320px) {
-  .carousel {
-    margin: 25px 50px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .carousel {
-    margin: 25px 65px;
-  }
-}
-
 .carousel__img {
   max-height: 500px;
   max-width: 500px;
@@ -199,15 +181,10 @@ a {
   margin-top: 75px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .nuestrasVelas {
-    margin-bottom: 0;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .nuestrasVelas {
-    margin-bottom: 0;
+    margin-bottom: 25px;
+    margin-top: 50px;
   }
 }
 
@@ -251,23 +228,22 @@ a {
   text-align: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .nuestrasVelas__parrafo {
-    padding: 0 30px;
-    margin-top: 25px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .nuestrasVelas__parrafo {
-    padding: 40px;
-    margin-top: 25px;
+    padding: 0;
+    margin: 25px;
   }
 }
 
 .refill {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+@media screen and (max-width: 425px) {
+  .refill {
+    margin: 0;
+  }
 }
 
 .refill__servicios {
@@ -309,15 +285,10 @@ a {
   margin-top: 35px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .refill__parrafo {
-    padding: 0 35px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .refill__parrafo {
-    padding: 0 35px;
+    padding: 0;
+    margin: 25px;
   }
 }
 
@@ -328,15 +299,9 @@ a {
   color: grey;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .queHacemos {
     font-size: 35px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .queHacemos {
-    font-size: 40px;
   }
 }
 
@@ -346,10 +311,10 @@ a {
   margin: 40px 0;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .queHacemos__parrafo {
-    margin: 40px 10px;
-    padding: 0;
+    padding: 0px;
+    margin: 30px 25px;
   }
 }
 
@@ -363,23 +328,16 @@ a {
   width: 300px;
 }
 
-@media screen and (max-width: 768px) {
-  .galeria__img {
-    margin: 10px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .galeria__img {
-    width: 250px;
-    height: 200px;
-  }
-}
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .galeria__img {
     width: 250px;
     height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .galeria__img {
+    margin: 10px;
   }
 }
 
@@ -391,15 +349,9 @@ a {
   color: grey;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .tituloProductos {
     font-size: 35px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .tituloProductos {
-    font-size: 40px;
   }
 }
 
@@ -446,15 +398,15 @@ a {
   color: grey;
 }
 
-@media screen and (max-width: 425px) {
-  .tituloFaq {
-    font-size: 35px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .tituloFaq {
     font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .tituloFaq {
+    font-size: 35px;
   }
 }
 
@@ -504,14 +456,7 @@ a {
   color: grey;
 }
 
-@media screen and (max-width: 320px) {
-  .tituloContaco {
-    padding: 0;
-    font-size: 40px;
-  }
-}
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .tituloContaco {
     font-size: 35px;
     padding: 0;
@@ -535,13 +480,7 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .contacto {
-    margin-top: 25px;
-    margin-bottom: 15px;
+    margin: 15px 0;
   }
 }
 

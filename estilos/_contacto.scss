@@ -6,11 +6,7 @@
     padding-bottom:($padding)-20;
     margin-top: 15px;
     color:grey;
-    @include movil-s {
-        padding: 0;
-        font-size: 40px;
-    }
-    @include movil-m {
+    @include movil {
         font-size: 35px;
         padding: 0;
     }
@@ -23,12 +19,9 @@
     margin-bottom: ($margin/2)+5;
     @include movil {
         flex-direction: column;
+        margin: 15px 0;
     }
-    @include movil-s {
-        margin-top: 25px;
-        margin-bottom: 15px;
-    }
-
+    
     &__input {
          background: $gradient;
     }

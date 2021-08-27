@@ -5,11 +5,8 @@
     text-align: center;
     margin-top: 15px;
     color:grey;
-    @include movil-s {
+    @include movil {
         font-size: 35px;
-    }
-    @include movil-m {
-        font-size: 40px;
     }
 }
 
@@ -17,13 +14,7 @@
     display: grid;
     justify-content: center;
     margin: ($margin/2)+5;
-    @include movil-s {
-        margin: 25px 50px;
-    }
-    @include movil-m {
-        margin: 25px 65px;
-    }
-
+    
     &__img {
          max-height:($height)-100;
          max-width:($width)-100;
@@ -33,11 +24,9 @@
 .nuestrasVelas {
     margin-bottom: $margin;
     margin-top: ($margin)+25;
-    @include movil-s {
-        margin-bottom:0 ;
-    }
-    @include movil-m {
-        margin-bottom: 0;
+    @include movil {
+        margin-bottom: 25px;
+        margin-top: 50px;
     }
 
     &__servicios {
@@ -62,20 +51,20 @@
             color: white;
             padding: $padding;
             text-align: center;
-            @include movil-s {
-                padding: 0 30px;
-                margin-top: 25px;
+            @include movil {
+                padding: 0;
+                margin: 25px;
             }
-            @include movil-m {
-                padding: 40px;
-                margin-top: 25px;
-            }
+           
     } 
 }
 
 .refill {
     margin-top: $margin/2;
     margin-bottom: $margin/2;
+    @include movil {
+        margin: 0;
+    }
 
     &__servicios {
         display: flex;
@@ -97,11 +86,9 @@
            padding: $padding;
            text-align: center;
            margin-top: ($margin/2)+10;
-           @include movil-s {
-               padding: 0 35px;
-           }
-           @include movil-m {
-               padding: 0 35px;
-           }
+           @include movil {
+            padding: 0;
+            margin: 25px;
+        }
     }
 }
