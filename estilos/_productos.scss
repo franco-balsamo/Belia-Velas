@@ -19,6 +19,7 @@
          width:$width/2;
          margin: $margin/2;
          transition: all 2s;
+         object-fit: cover;
          @include movil-s {
              width: 250px;
              height: 200px;
@@ -31,8 +32,8 @@
     }
 
     &__img:hover {
-          width: 450px;
-          height: 450px; 
+          width: 325px;
+          height: 325px; 
           padding: 15px;
           background-image: $gradient;
     }

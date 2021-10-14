@@ -23,6 +23,7 @@
 .galeria {
     text-align: center;
     margin-bottom: 25px;
+    overflow: hidden;
 
     &__img{
          height:$height/2;
